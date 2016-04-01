@@ -11,4 +11,14 @@ public class NameGenerator
     public final static int APE_PARTE1 = 2;
     public final static int APE_PARTE2 = 3;
     
+    /**
+     * Metodo que genera los nombres cogiendo solamente tantas letras como numero tiene en los atributos
+     */
+    public String generateStarWarsName(String nombre, String apellido1, String apellido2, String ciudadNacimiento)
+    {
+        String starWarsName = "";
+        starWarsName += apellido1.substring(0, NOMBRE) + nombre.substring(0,NOMBRE) + " " 
+            + apellido2.substring(0,APE_PARTE1) + ciudadNacimiento.substring(0,APE_PARTE2);
+        return starWarsName;
+    }
 }

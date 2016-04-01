@@ -1,2 +1,5 @@
 #BlueJ class context
-numComments=0
+comment0.params=nombre\ apellido1\ apellido2\ ciudadNacimiento
+comment0.target=java.lang.String\ generateStarWarsName(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Metodo\ que\ genera\ los\ nombres\ cogiendo\ solamente\ tantas\ letras\ como\ numero\ tiene\ en\ los\ atributos\r\n
+numComments=1
